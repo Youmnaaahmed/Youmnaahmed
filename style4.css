@@ -1,0 +1,86 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d1d2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 80px; 
+    width: auto;
+    margin-right: 20px;
+}
+
+.main-button {
+    background-color: #003366; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Blackadder ITC', cursive; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-button {
+    background-color: #003366; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 300px; 
+    font-family: 'Blackadder ITC', cursive; 
+}
+
+.details {
+    display: none; 
+    background-color: #003366; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.fixed-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #003366;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
